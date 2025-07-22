@@ -1,0 +1,9 @@
+FROM openjdk:17-slim
+
+WORKDIR /app
+
+COPY StudentDetails.java .
+
+RUN javac StudentDetails.java
+
+CMD ["java", "StudentDetails"]

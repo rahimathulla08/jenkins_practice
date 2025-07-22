@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test Math</title>
+  <script>
+    function add(a, b) {
+      return a + b;
+    }
+
+    function testAdd() {
+      const result = add(5, 10);
+      document.getElementById("output").textContent = result;
+    }
+  </script>
+</head>
+<body onload="testAdd()">
+  <h1>Simple Math Test</h1>
+  <p id="output"></p>
+</body>
+</html>
